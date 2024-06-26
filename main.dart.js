@@ -109076,10 +109076,10 @@ s.z=B.ON
 return s},
 $S:587}
 A.aY_.prototype={
-$1(a){return new A.wR(A.axH("http://127.0.0.1:8069/"),$.ax())},
+$1(a){return new A.wR(A.axH("https://gras-savoye.dev.healio.tech/"),$.ax())},
 $S:588}
 A.aY0.prototype={
-$1(a){return new A.tY(A.axH("http://127.0.0.1:8069/"),$.ax())},
+$1(a){return new A.tY(A.axH("https://gras-savoye.dev.healio.tech/"),$.ax())},
 $S:589}
 A.aY1.prototype={
 $1(a){return new A.up(A.axH("http://192.168.2.80:8069/"),$.ax())},
