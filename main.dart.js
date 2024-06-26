@@ -113089,7 +113089,7 @@ a4=A.aE(["db",a7,"login",a8,"password",a9],a3,a3)
 a5=n.a
 a5===$&&A.b()
 m=A.fF(a5+"/web/session/authenticate",0,null)
-l=B.cd.mg(A.aE(["jsonrpc","2.0","method","call","params",a4,"id",A.b18(B.qy.dC(B.bZ.dC(new A.a9(Date.now(),!1).j(0))).a)],a3,t.K))
+l=B.cd.mg(A.aE(["jsonrpc","2.0","method","call","mode","cors","params",a4,"id",A.b18(B.qy.dC(B.bZ.dC(new A.a9(Date.now(),!1).j(0))).a)],a3,t.K))
 p=4
 if(n.f){a3=n.x
 a3===$&&A.b()
