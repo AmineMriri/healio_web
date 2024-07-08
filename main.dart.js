@@ -109090,10 +109090,10 @@ A.aY8.prototype={
 $1(a){return new A.u_(A.axH("https://gras-savoye.dev.healio.tech/"),$.ax())},
 $S:589}
 A.aY9.prototype={
-$1(a){return new A.up(A.axH("https://gras-savoye.dev.healio.tech/"),$.ax())},
+$1(a){return new A.up(A.axH("https://gras-savoye.tst.healio.tech/"),$.ax())},
 $S:590}
 A.aYa.prototype={
-$1(a){return new A.tR(A.axH("https://gras-savoye.dev.healio.tech/"),$.ax())},
+$1(a){return new A.tR(A.axH("https://gras-savoye.tst.healio.tech/"),$.ax())},
 $S:591}
 A.a_l.prototype={
 D(a){return new A.Gi(B.ad4,"Healio",A.Bi(null,!1),B.Kz,B.Xs,B.ZU,!1,null)}}
@@ -109131,7 +109131,7 @@ var $async$wq=A.F(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 i=n.a
 s=7
-return A.J(i.lh("odoo_test","admin","admin"),$async$wq)
+return A.J(i.lh("odoo_test","testportail@test.com","%ZmYcp^No~1`!7H01T"),$async$wq)
 case 7:h=t.N
 m=A.aE(["physician_id",a],h,t.S)
 g=t.z
@@ -109167,7 +109167,7 @@ var $async$wr=A.F(function(c,a0){if(c===1){o=a0
 s=p}while(true)switch(s){case 0:p=4
 i=n.a
 s=7
-return A.J(i.lh("odoo_test","admin","admin"),$async$wr)
+return A.J(i.lh("odoo_test","testportail@test.com","%ZmYcp^No~1`!7H01T"),$async$wr)
 case 7:h=t.N
 g=t.K
 m=A.aE(["physician_id",a,"date_str",b.j(0)],h,g)
@@ -109258,7 +109258,7 @@ s=p}while(true)switch(s){case 0:p=4
 A.bm("printing before authenticate")
 i=n.a
 s=7
-return A.J(i.lh("backoffice_Gras_2","gst_admin_healio@test.com","x7RceToMDuFfcAc").lL(0,B.SP),$async$wv)
+return A.J(i.lh("backoffice_Gras_2","testportail@test.com","%ZmYcp^No~1`!7H01T").lL(0,B.SP),$async$wv)
 case 7:h=t.N
 m=A.aE(["page",a,"page_size",b],h,t.S)
 A.bm("printing after authenticate")
@@ -109298,7 +109298,7 @@ var $async$wD=A.F(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
 i=n.a
 s=7
-return A.J(i.lh("backoffice_Gras_2","admin","admin"),$async$wD)
+return A.J(i.lh("backoffice_Gras_2","testportail@test.com","%ZmYcp^No~1`!7H01T"),$async$wD)
 case 7:h=t.N
 g=t.K
 m=A.aE(["page",b,"page_size",c,"name",a],h,g)
@@ -109334,7 +109334,7 @@ var $async$zu=A.F(function(a1,a2){if(a1===1){o=a2
 s=p}while(true)switch(s){case 0:p=4
 i=n.a
 s=7
-return A.J(i.lh("backoffice_Gras_2","admin","admin"),$async$zu)
+return A.J(i.lh("backoffice_Gras_2","testportail@test.com","%ZmYcp^No~1`!7H01T"),$async$zu)
 case 7:h=t.N
 g=t.K
 m=A.aE(["page",c,"page_size",a0,"region",a,"specialty",b],h,g)
