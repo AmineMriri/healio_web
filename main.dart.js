@@ -111070,7 +111070,7 @@ A.b5("after doctor fetshing :")},
 D(a3){var s,r,q,p,o,n,m,l,k,j,i,h=this,g=null,f="assets/images/blank_profile_pic.png",e="Sp\xe9cialit\xe9",d="Coordonn\xe9es",c="(5 Km)",b="Planifier un RDV",a=17976931348623157e292,a0=new A.ez(a3),a1=A.bB(a3,!0,t.A),a2=a1.b
 a2===$&&A.b()
 a2=A.je(g,A.cx(B.iT,a2,g,24),g,new A.aMv(a3),g,g)
-s=A.me("images/doctor-physician.jpg",B.Mt,1/0,1/0)
+s=A.me("assets/images/doctor-physician.jpg",B.Mt,1/0,1/0)
 if(h.z){r=a1.z
 r===$&&A.b()
 r=A.ch(A.wF(r,50),g,g)}else if(h.Q)r=A.WF(a0,a1,new A.aMw(h))
