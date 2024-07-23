@@ -109349,8 +109349,8 @@ g=t.z
 s=8
 return A.C(i.lm(A.aF(["model","hms.physician","method","get_physician_list","args",A.a([m],t.xN),"kwargs",A.K(g,g)],h,t.K)).l0(0,B.SY),$async$wz)
 case 8:l=a0
-k=A.b04(l)
-A.b5(B.c.a2("this is the get doctors result :",J.b2(l,"result")))
+k=A.b04(J.b2(l,"result"))
+A.b5(B.c.a2("this is the get doctors result :",l))
 q=k
 s=1
 break
