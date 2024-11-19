@@ -109524,10 +109524,10 @@ A.aZf.prototype={
 $1(a){return new A.ud($.ay())},
 $S:584}
 A.aZg.prototype={
-$1(a){return new A.uI(A.b8D("http://localhost:3000/api/proxy"),$.ay())},
+$1(a){return new A.uI(A.b8D("https://portail.healio.tech/api/proxy"),$.ay())},
 $S:585}
 A.aZh.prototype={
-$1(a){return new A.u5(A.b8D("http://localhost:3000/api/proxy"),$.ay())},
+$1(a){return new A.u5(A.b8D("https://portail.healio.tech/api/proxy"),$.ay())},
 $S:586}
 A.aZi.prototype={
 $1(a){return new A.ms($.ay())},
@@ -109606,7 +109606,7 @@ A.u5.prototype={
 B3(a){return this.a76(a)},
 a76(a){var s=0,r=A.A(t.nY),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$B3=A.B(function(b,c){if(b===1){o=c
-s=p}while(true)switch(s){case 0:g=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:g=A.cU("https://portail.healio.tech/api/proxy",0,null)
 f=t.N
 e=A.ag(["db","Wecover","login",B.c.bZ("app-mobile@healio.tech".toLowerCase()),"password","8a9TiRnSh/5NN]^#2n9[","model","res.schedule","method","get_available_dates_for_physician","args",A.a([A.ag(["physician_id",a],f,t.S)],t.xN)],f,t.K)
 p=4
@@ -109649,7 +109649,7 @@ return A.z($async$B3,r)},
 B4(a,b){return this.a77(a,b)},
 a77(a,b){var s=0,r=A.A(t.Ln),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$B4=A.B(function(c,a0){if(c===1){o=a0
-s=p}while(true)switch(s){case 0:h=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:h=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=t.N
 f=t.K
 e=A.ag(["db","Wecover","login",B.c.bZ("app-mobile@healio.tech".toLowerCase()),"password","8a9TiRnSh/5NN]^#2n9[","model","res.schedule","method","get_available_time_slots","args",A.a([A.ag(["physician_id",a,"date_str",b.j(0)],g,f)],t.Mq)],g,f)
@@ -109699,7 +109699,7 @@ B7(a,b,c){return this.a7b(a,b,c)},
 a7b(a,b,c){var s=0,r=A.A(t.r3),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$B7=A.B(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:A.a2("Starting getBulletinsByStatus")
-n=A.cU("http://localhost:3000/api/proxy",0,null)
+n=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=c==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 f=t.N
 m=A.ag(["db",c,"login","app-mobile@healio.tech","password",g,"model","bulletin.soin","method","get_bs_list_by_state","args",A.a([A.ag(["adherent_id",a,"state",b],f,t.u)],t.U7)],f,t.K)
@@ -109748,7 +109748,7 @@ a7a(a7,a8,a9,b0){var s=0,r=A.A(t.rq),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a
 var $async$n2=A.B(function(b1,b2){if(b1===1){o=b2
 s=p}while(true)switch(s){case 0:A.a2("Starting getBsDocument")
 n=a9==="CV"?a9+" - "+a8+".pdf":a9+" "+a8+".pdf"
-m=A.cU("http://localhost:3000/api/proxy",0,null)
+m=A.cU("https://portail.healio.tech/api/proxy",0,null)
 a0=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 a1=b0==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 a2=t.N
@@ -109841,7 +109841,7 @@ A.uI.prototype={
 Bc(a,b,c){return this.a7i(a,b,c)},
 a7i(a,b,a0){var s=0,r=A.A(t.H7),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Bc=A.B(function(a1,a2){if(a1===1){o=a2
-s=p}while(true)switch(s){case 0:h=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:h=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 f=a0==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
@@ -109886,7 +109886,7 @@ return A.z($async$Bc,r)},
 Bp(a,b,c,d){return this.a8_(a,b,c,d)},
 a8_(a,a0,a1,a2){var s=0,r=A.A(t.H7),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$Bp=A.B(function(a3,a4){if(a3===1){o=a4
-s=p}while(true)switch(s){case 0:h=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:h=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 f=a2==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
@@ -109932,7 +109932,7 @@ return A.z($async$Bp,r)},
 Fv(a,b,c,d,e){return this.aAU(a,b,c,d,e)},
 aAU(a,a0,a1,a2,a3){var s=0,r=A.A(t.H7),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$Fv=A.B(function(a4,a5){if(a4===1){o=a5
-s=p}while(true)switch(s){case 0:h=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:h=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 f=a3==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
@@ -109978,7 +109978,7 @@ return A.z($async$Fv,r)},
 Bb(a,b){return this.a7h(a,b)},
 a7h(a,b){var s=0,r=A.A(t.oe),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Bb=A.B(function(a0,a1){if(a0===1){o=a1
-s=p}while(true)switch(s){case 0:h=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:h=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 f=b==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
@@ -110024,7 +110024,7 @@ return A.z($async$Bb,r)},
 Ba(a){return this.a7g(a)},
 a7g(a){var s=0,r=A.A(t.su),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Ba=A.B(function(b,a0){if(b===1){o=a0
-s=p}while(true)switch(s){case 0:h=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:h=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 f=a==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
@@ -110074,7 +110074,7 @@ Be(a,b,c){return this.a7p(0,b,c)},
 a7p(a,b,a0){var s=0,r=A.A(t.Mm),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Be=A.B(function(a1,a2){if(a1===1){o=a2
 s=p}while(true)switch(s){case 0:A.a2("get notification triggered")
-n=A.cU("http://localhost:3000/api/proxy",0,null)
+n=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 f=a0==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
@@ -110142,7 +110142,7 @@ return A.z($async$Fg,r)},
 Bf(a,b){return this.a7q(a,b)},
 a7q(a,b){var s=0,r=A.A(t.pk),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Bf=A.B(function(a0,a1){if(a0===1){o=a1
-s=p}while(true)switch(s){case 0:h=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:h=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 f=b==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
@@ -110191,7 +110191,7 @@ return A.z($async$Bf,r)},
 Hp(a,b){return this.aHS(a,b)},
 aHS(a,b){var s=0,r=A.A(t.ch),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Hp=A.B(function(a0,a1){if(a0===1){o=a1
-s=p}while(true)switch(s){case 0:h=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:h=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 f=b==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
@@ -110239,7 +110239,7 @@ A.xe.prototype={
 BK(a,b,c,d){return this.a8X(a,b,c,d)},
 a8X(a1,a2,a3,a4){var s=0,r=A.A(t.DF),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0
 var $async$BK=A.B(function(a5,a6){if(a5===1){o=a6
-s=p}while(true)switch(s){case 0:e=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:e=A.cU("https://portail.healio.tech/api/proxy",0,null)
 d=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 c=B.c.bZ(a1.toLowerCase())
 b=B.c.bZ(a2)
@@ -110289,7 +110289,7 @@ return A.z($async$BK,r)},
 FB(a,b,c){return this.aBd(a,b,c)},
 aBd(a,b,c){var s=0,r=A.A(t._n),q,p=2,o,n,m,l,k,j,i,h,g,f,e
 var $async$FB=A.B(function(d,a0){if(d===1){o=a0
-s=p}while(true)switch(s){case 0:h=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:h=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=t.N
 f=A.ag(["db",b,"login",B.c.bZ("app-mobile@healio.tech".toLowerCase()),"password",c,"model","res.users","method","reset_password_mobile","args",A.a([A.ag(["accept","application/json","db_name",b,"login",B.c.bZ(a.toLowerCase())],g,g)],t.m0)],g,t.K)
 p=4
@@ -110330,7 +110330,7 @@ return A.z($async$FB,r)},
 Bh(a,b){return this.a7A(a,b)},
 a7A(a,b){var s=0,r=A.A(t.b0),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Bh=A.B(function(a0,a1){if(a0===1){o=a1
-s=p}while(true)switch(s){case 0:h=A.cU("http://localhost:3000/api/proxy",0,null)
+s=p}while(true)switch(s){case 0:h=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 f=b==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
@@ -110374,7 +110374,7 @@ wF(a,b){return this.a7k(a,b)},
 a7k(a,b){var s=0,r=A.A(t.CT),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$wF=A.B(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:A.a2("start get family member")
-n=A.cU("http://localhost:3000/api/proxy",0,null)
+n=A.cU("https://portail.healio.tech/api/proxy",0,null)
 g=B.c.bZ("app-mobile@healio.tech".toLowerCase())
 f=b==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
