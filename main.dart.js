@@ -32629,7 +32629,9 @@ _.e=a
 _.f=$
 _.r=!1
 _.w=$
-_.a=_.x=null
+_.x=null
+_.y="healio"
+_.a=null
 _.b=b
 _.c=null},
 aP9:function aP9(a){this.a=a},
@@ -110788,7 +110790,7 @@ r=A.ajr(h,!0,h,h,h,h,h,h)
 q=i.w.b
 q===$&&A.b()
 q=A.ajr(h,!1,B.n,h,!0,0,A.iJ(h,A.df(B.mT,q,h,24),h,new A.aP9(a),h,h),h)
-p=A.c7(A.me("assets/images/app_icon.png",h,h,200),h,h)
+p=A.c7(A.me("assets/images/"+i.y+".png",h,h,200),h,h)
 o=A.aC("Ne vous inqui\xe9tez pas, nous vous aiderons \xe0 vous connecter",h,h,h,h,h,h,h,new A.f1(a).gHN(),B.bA,h,h)
 n=i.x
 m=i.w
@@ -110872,14 +110874,12 @@ $S:0}
 A.aPa.prototype={
 $1(a){var s,r,q=this.a
 q.x=a
-A.a2("triggered db selection : "+a)
-s=q.x
-if(s!=null){r=t.FM
-if(s==="Gras Savoye"){A.a2("gs db selected")
-s=$.b_x.bC()
-$.jR().$1$0(r).jE(s)}else{A.a2("wecover db selected")
-s=$.b_y.bC()
-$.jR().$1$0(r).jE(s)}}q.J(new A.aP8(q))},
+s=t.FM
+if(a==="Gras Savoye"){r=$.b_x.bC()
+$.jR().$1$0(s).jE(r)
+q.y="gs"}else{r=$.b_y.bC()
+$.jR().$1$0(s).jE(r)
+q.y="wecover"}q.J(new A.aP8(q))},
 $S:29}
 A.aP8.prototype={
 $0(){},
