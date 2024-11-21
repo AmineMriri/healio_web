@@ -109501,8 +109501,9 @@ $S:584}
 A.a_Z.prototype={
 D(a){return new A.GM(B.ac2,"Healio",A.BO(null,!1),B.Kj,B.X3,B.Zu,!1,null)}}
 A.nm.prototype={
-j(a){var s=this
-return"Bulletin{idBs: "+s.a+", numBs: "+s.b+", dateMaladie: "+s.c+", dateReglement: "+s.d+", dateBordereau: "+s.e+", patient: "+s.f+", prestataire: "+s.r+", adherent: "+s.w+", totalDep: "+A.j(s.x)+", totalPec: "+A.j(s.y)+", state: "+s.z+", isCV: "+s.Q+", isTPA: "+s.as+", prestations: "+A.j(s.at)+"}"}}
+j(a){var s=this,r="Bulletin{idBs: "+s.a+", numBs: "+s.b+", dateMaladie: "+s.c+", dateReglement: "+s.d+", dateBordereau: "+s.e+", patient: "+s.f+", prestataire: "+s.r+", adherent: "+s.w+", totalDep: "+A.j(s.x)+", totalPec: "+A.j(s.y)+", state: "+s.z+", isCV: "+s.Q+", isTPA: "+s.as+", prestations: ",q=s.at
+A.a3(r+A.j(q)+"}")
+return r+A.j(q)+"}"}}
 A.akL.prototype={
 $1(a){var s="prestataire",r="observation",q=J.aH(a),p=q.i(a,"discipline"),o=q.i(a,"prestation"),n=J.h(q.i(a,s),!1)?null:q.i(a,s),m=J.h(q.i(a,r),!1)?null:q.i(a,r)
 return new A.rk(p,o,n,m,A.aYc(J.b4S(q.i(a,"montant"),3)),A.aYc(J.b4S(q.i(a,"pec"),3)))},
@@ -111703,7 +111704,7 @@ h===$&&A.b()
 s.push(A.b_J(h,1,1))}s.push(j.awY(a,f))
 return A.mi(s,i,B.k8,i,B.ae,!0)},
 awX(a,b){var s,r=A.a(["Prestation","D\xe9pens\xe9"],t.s)
-if(b===3)r.push("Rembours\xe9")
+if(b===3)r.push(this.a.c.as?"PEC TPA":"Rembours\xe9")
 s=t.bg
 return A.aN(A.a8(new A.a0(r,new A.aOj(this,r,a),s),!0,s.h("al.E")),B.j,B.o,B.h)},
 awS(a,b,c){var s,r,q=b.i(0,"prestation")
