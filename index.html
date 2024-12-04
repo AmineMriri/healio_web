@@ -33,6 +33,10 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="healio">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
@@ -68,15 +72,21 @@
   const analytics = getAnalytics(app);
 
   </script>
+  <!-- Firebase App (the core Firebase SDK) -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+
+  <!-- Add Firebase products you want to use -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-storage.js"></script>
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "274251338";
+    const serviceWorkerVersion = "218298776";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
-
   <script>
     window.addEventListener('load', function(ev) {
       // Download main.dart.js
@@ -93,13 +103,7 @@
     });
 
   </script>
-  <!-- Firebase App (the core Firebase SDK) -->
-  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
 
-  <!-- Add Firebase products you want to use -->
-  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-storage.js"></script>
 
 </body>
 </html>
