@@ -12,7 +12,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "2bb5f122855af32ce5c1b7fa7fa8c93f
 "assets/assets/images/empty.png": "4859c25ec31cd184919efc083d795719",
 "assets/assets/images/error.png": "f689ea9934618709d6690d9e0ecf6ee2",
 "assets/assets/images/gs.png": "554787337532dfc731b828a4867c3980",
-"assets/assets/images/healio.png": "fa960e2e39fb1be7dd52259aa2983f3d",
+"assets/assets/images/healio.png": "de781a586b28ad5cb5db0f9e1014d8fd",
 "assets/assets/images/no_netwrok.png": "56a062f06b56672c6018d53090495898",
 "assets/assets/images/under_construction.png": "62571bdc1b369d4d701e5ea1670850d7",
 "assets/assets/images/wecover.png": "bbd4a2c4016136e8b0f269b128a28900",
@@ -45,9 +45,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "2bb5f122855af32ce5c1b7fa7fa8c93f
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "873e4d057902a9547ae6d056aeb29698",
-"/": "873e4d057902a9547ae6d056aeb29698",
-"main.dart.js": "99f6cb0546029292f1196c252ad34c35",
+"index.html": "7d1dd6d3619fcee371f53d9253daa0c1",
+"/": "7d1dd6d3619fcee371f53d9253daa0c1",
+"main.dart.js": "ec0cbad64bc275ccd80890eb907f7a81",
 "manifest.json": "cea679379a0c96deabaf3575c2f5f6cc",
 "version.json": "349458cd45e2279f02cf49ea2dee6c25"};
 // The application shell files that are downloaded before a service worker can
