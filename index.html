@@ -81,7 +81,7 @@
   <script type="module" src="https://www.gstatic.com/firebasejs/7.5.0/firebase-storage.js"></script>
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1302949183";
+    const serviceWorkerVersion = "2000730219";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -122,21 +122,26 @@
     <div class="loader"></div>
   </div>
   <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
+  window.addEventListener('load', function(ev) {
+    // Download main.dart.js
+    _flutter.loader.loadEntrypoint({
+      serviceWorker: {
+        serviceWorkerVersion: serviceWorkerVersion,
+      },
+      onEntrypointLoaded: function(engineInitializer) {
+        engineInitializer.initializeEngine().then(function(appRunner) {
+          appRunner.runApp();
+          // Hide or remove the loader
+          const loader = document.getElementById('loader');
+          if (loader) {
+            loader.style.display = 'none'; // Hide the loader
+          }
+        });
+      }
     });
+  });
+</script>
 
-  </script>
 
 
 </body>
