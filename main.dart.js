@@ -112612,7 +112612,7 @@ abk(a){var s=0,r=A.A(t.nY),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$Dn=A.w(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:g=A.cR("https://portail.healio.tech/api/proxy",0,null)
 f=t.N
-e=A.ad(["url","https://gras-savoye.dev.healio.tech","db","Wecover","login",B.e.cd("portal@healio.tech".toLowerCase()),"password","8a9TiRnSh/5NN]^#2n9[","model","res.schedule","method","get_available_dates_for_physician","args",A.a([A.ad(["physician_id",a],f,t.S)],t.xN)],f,t.K)
+e=A.ad(["url","https://wecoverbo.healio.tech","db","Wecover","login",B.e.cd("portal@healio.tech".toLowerCase()),"password","%ZmYcp^No~1`!7H01T","model","res.schedule","method","get_available_dates_for_physician","args",A.a([A.ad(["physician_id",a],f,t.S)],t.xN)],f,t.K)
 p=4
 f=A.ad(["Content-Type","application/json"],f,f)
 s=7
@@ -112656,7 +112656,7 @@ var $async$Do=A.w(function(c,a0){if(c===1){o=a0
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=t.N
 f=t.K
-e=A.ad(["url","https://gras-savoye.dev.healio.tech","db","Wecover","login",B.e.cd("portal@healio.tech".toLowerCase()),"password","8a9TiRnSh/5NN]^#2n9[","model","res.schedule","method","get_available_time_slots","args",A.a([A.ad(["physician_id",a,"date_str",b.j(0)],g,f)],t.Mq)],g,f)
+e=A.ad(["url","https://wecoverbo.healio.tech","db","Wecover","login",B.e.cd("portal@healio.tech".toLowerCase()),"password","%ZmYcp^No~1`!7H01T","model","res.schedule","method","get_available_time_slots","args",A.a([A.ad(["physician_id",a,"date_str",b.j(0)],g,f)],t.Mq)],g,f)
 p=4
 g=A.ad(["Content-Type","application/json"],g,g)
 s=7
@@ -112698,7 +112698,7 @@ $iab:1}
 A.ab8.prototype={}
 A.VO.prototype={
 U3(a){if(a==="Gras-savoye")return"n/T9N9N[RS8hin5a]^2#"
-else return"8a9TiRnSh/5NN]^#2n9["},
+else return"%ZmYcp^No~1`!7H01T"},
 $iab:1}
 A.abl.prototype={}
 A.vF.prototype={
@@ -112706,9 +112706,9 @@ Dp(a,b,c){return this.abp(a,b,c)},
 abp(a,b,c){var s=0,r=A.A(t.r3),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d
 var $async$Dp=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
-g=c==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+g=c==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 f=t.N
-e=A.ad(["url","https://gras-savoye.dev.healio.tech","db",c,"login","portal@healio.tech","password",g,"model","bulletin.soin","method","get_bs_list_by_state","args",A.a([A.ad(["adherent_id",a,"state",b],f,t.u)],t.U7)],f,t.K)
+e=A.ad(["url","https://wecoverbo.healio.tech","db",c,"login","portal@healio.tech","password",g,"model","bulletin.soin","method","get_bs_list_by_state","args",A.a([A.ad(["adherent_id",a,"state",b],f,t.u)],t.U7)],f,t.K)
 p=4
 g=A.ad(["Content-Type","application/json"],f,f)
 s=7
@@ -112750,10 +112750,10 @@ var $async$yH=A.w(function(a8,a9){if(a8===1){o=a9
 s=p}while(true)switch(s){case 0:e=a6==="CV"?a6+" - "+a5+".pdf":a6+" "+a5+".pdf"
 d=A.cR("https://portail.healio.tech/api/proxy",0,null)
 c=B.e.cd("portal@healio.tech".toLowerCase())
-b=a7==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+b=a7==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 a=t.N
 a0=t.K
-a1=A.ad(["url","https://gras-savoye.dev.healio.tech","db",a7,"login",c,"password",b,"model","bulletin.soin","method","get_bs_doc","args",A.a([A.ad(["bs_id",a4,"name_report",a6],a,a0)],t.Mq)],a,a0)
+a1=A.ad(["url","https://wecoverbo.healio.tech","db",a7,"login",c,"password",b,"model","bulletin.soin","method","get_bs_doc","args",A.a([A.ad(["bs_id",a4,"name_report",a6],a,a0)],t.Mq)],a,a0)
 p=4
 c=A.ad(["Content-Type","application/json"],a,a)
 s=7
@@ -112823,9 +112823,9 @@ aCt(a,b,a0,a1,a2,a3){var s=0,r=A.A(t.iy),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$GT=A.w(function(a4,a5){if(a4===1){o=a5
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=B.e.cd("portal@healio.tech".toLowerCase())
-f=a3==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+f=a3==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
-d=A.ad(["url","https://gras-savoye.dev.healio.tech","db",a3,"login",g,"password",f,"model","bulletin.soin","method","add_bs","args",A.a([A.ad(["adherent_id",a,"patient",b,"num_bs",a0,"date",a1,"upload_url",a2],e,t.X)],t.CF)],e,t.K)
+d=A.ad(["url","https://wecoverbo.healio.tech","db",a3,"login",g,"password",f,"model","bulletin.soin","method","add_bs","args",A.a([A.ad(["adherent_id",a,"patient",b,"num_bs",a0,"date",a1,"upload_url",a2],e,t.X)],t.CF)],e,t.K)
 A.aD(d)
 p=4
 g=A.ad(["Content-Type","application/json"],e,e)
@@ -112973,10 +112973,10 @@ ach(a,a0,a1,a2,a3,a4){var s=0,r=A.A(t.gG),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$DL=A.w(function(a5,a6){if(a5===1){o=a6
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=B.e.cd("portal@healio.tech".toLowerCase())
-f=a4==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+f=a4==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
 d=t.K
-c=A.ad(["url","https://gras-savoye.dev.healio.tech","db",a4,"login",g,"password",f,"model","hms.physician","method","search_physicians_by_name","args",A.a([A.ad(["page",a2,"page_size",a3,"name",a,"region",a0,"specialty",a1],e,d)],t.Mq)],e,d)
+c=A.ad(["url","https://wecoverbo.healio.tech","db",a4,"login",g,"password",f,"model","hms.physician","method","search_physicians_by_name","args",A.a([A.ad(["page",a2,"page_size",a3,"name",a,"region",a0,"specialty",a1],e,d)],t.Mq)],e,d)
 p=4
 g=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113017,10 +113017,10 @@ aHJ(a,a0,a1,a2,a3){var s=0,r=A.A(t.gG),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c,b
 var $async$Ie=A.w(function(a4,a5){if(a4===1){o=a5
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=B.e.cd("portal@healio.tech".toLowerCase())
-f=a3==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+f=a3==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
 d=t.K
-c=A.ad(["url","https://gras-savoye.dev.healio.tech","db",a3,"login",g,"password",f,"model","hms.physician","method","filter_physicians","args",A.a([A.ad(["page",a1,"page_size",a2,"region",a,"specialty",a0],e,d)],t.Mq)],e,d)
+c=A.ad(["url","https://wecoverbo.healio.tech","db",a3,"login",g,"password",f,"model","hms.physician","method","filter_physicians","args",A.a([A.ad(["page",a1,"page_size",a2,"region",a,"specialty",a0],e,d)],t.Mq)],e,d)
 p=4
 g=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113061,9 +113061,9 @@ abu(a,b){var s=0,r=A.A(t.oe),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Dx=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=B.e.cd("portal@healio.tech".toLowerCase())
-f=b==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+f=b==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
-d=A.ad(["url","https://gras-savoye.dev.healio.tech","db",b,"login",g,"password",f,"model","hms.physician","method","get_physician_details","args",A.a([A.ad(["id",a],e,t.S)],t.xN)],e,t.K)
+d=A.ad(["url","https://wecoverbo.healio.tech","db",b,"login",g,"password",f,"model","hms.physician","method","get_physician_details","args",A.a([A.ad(["id",a],e,t.S)],t.xN)],e,t.K)
 p=4
 g=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113105,9 +113105,9 @@ abt(a){var s=0,r=A.A(t.su),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Dw=A.w(function(b,a0){if(b===1){o=a0
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=B.e.cd("portal@healio.tech".toLowerCase())
-f=a==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+f=a==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
-d=A.ad(["url","https://gras-savoye.dev.healio.tech","db",a,"login",g,"password",f,"model","hms.physician","method","get_specialties_list","args",[]],e,t.K)
+d=A.ad(["url","https://wecoverbo.healio.tech","db",a,"login",g,"password",f,"model","hms.physician","method","get_specialties_list","args",[]],e,t.K)
 p=4
 g=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113151,9 +113151,9 @@ abE(a,b,a0){var s=0,r=A.A(t.Mm),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Dz=A.w(function(a1,a2){if(a1===1){o=a2
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=B.e.cd("portal@healio.tech".toLowerCase())
-f=a0==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+f=a0==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
-d=A.ad(["url","https://gras-savoye.dev.healio.tech","db",a0,"login",g,"password",f,"model","hms.notifications","method","get_notifications","args",A.a([A.ad(["user_id",b],e,t.S)],t.xN)],e,t.K)
+d=A.ad(["url","https://wecoverbo.healio.tech","db",a0,"login",g,"password",f,"model","hms.notifications","method","get_notifications","args",A.a([A.ad(["user_id",b],e,t.S)],t.xN)],e,t.K)
 p=4
 g=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113216,9 +113216,9 @@ abF(a,b){var s=0,r=A.A(t.pk),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$DA=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=B.e.cd("portal@healio.tech".toLowerCase())
-f=b==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+f=b==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
-d=A.ad(["url","https://gras-savoye.dev.healio.tech","db",b,"login",g,"password",f,"model","hms.notifications","method","get_notif_count","args",A.a([A.ad(["user_id",a],e,t.S)],t.xN)],e,t.K)
+d=A.ad(["url","https://wecoverbo.healio.tech","db",b,"login",g,"password",f,"model","hms.notifications","method","get_notif_count","args",A.a([A.ad(["user_id",a],e,t.S)],t.xN)],e,t.K)
 p=4
 g=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113263,9 +113263,9 @@ aPn(a,b){var s=0,r=A.A(t.ch),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$Ke=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=B.e.cd("portal@healio.tech".toLowerCase())
-f=b==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+f=b==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
-d=A.ad(["url","https://gras-savoye.dev.healio.tech","db",b,"login",g,"password",f,"model","hms.notifications","method","update_notification_state","args",A.a([A.ad(["notification_id",a],e,t.S)],t.xN)],e,t.K)
+d=A.ad(["url","https://wecoverbo.healio.tech","db",b,"login",g,"password",f,"model","hms.notifications","method","update_notification_state","args",A.a([A.ad(["notification_id",a],e,t.S)],t.xN)],e,t.K)
 p=4
 g=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113310,7 +113310,8 @@ var $async$Ea=A.w(function(a1,a2){if(a1===1){o=a2
 s=p}while(true)switch(s){case 0:g=n.U3(a0)
 f=A.cR("https://portail.healio.tech/api/proxy",0,null)
 e=t.N
-d=A.ad(["url","https://gras-savoye.dev.healio.tech","db",a0,"login",B.e.cd("portal@healio.tech".toLowerCase()),"password",g,"model","res.users","method","get_user_account","args",A.a([A.ad(["accept","application/json","db_name",a0,"login",B.e.cd(a.toLowerCase()),"password",n.a6p(B.e.cd(b))],e,e)],t.m0)],e,t.K)
+d=A.ad(["url","https://wecoverbo.healio.tech","db",a0,"login",B.e.cd("portal@healio.tech".toLowerCase()),"password",g,"model","res.users","method","get_user_account","args",A.a([A.ad(["accept","application/json","db_name",a0,"login",B.e.cd(a.toLowerCase()),"password",n.a6p(B.e.cd(b))],e,e)],t.m0)],e,t.K)
+A.aD("config request : "+A.j(d))
 p=4
 e=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113348,7 +113349,7 @@ var $async$In=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:g=n.U3(b)
 f=A.cR("https://portail.healio.tech/api/proxy",0,null)
 e=t.N
-d=A.ad(["url","https://gras-savoye.dev.healio.tech","db",b,"login",B.e.cd("portal@healio.tech".toLowerCase()),"password",g,"model","res.users","method","reset_password_mobile","args",A.a([A.ad(["accept","application/json","db_name",b,"login",B.e.cd(a.toLowerCase())],e,e)],t.m0)],e,t.K)
+d=A.ad(["url","https://wecoverbo.healio.tech","db",b,"login",B.e.cd("portal@healio.tech".toLowerCase()),"password",g,"model","res.users","method","reset_password_mobile","args",A.a([A.ad(["accept","application/json","db_name",b,"login",B.e.cd(a.toLowerCase())],e,e)],t.m0)],e,t.K)
 p=4
 e=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113386,9 +113387,9 @@ abR(a,b){var s=0,r=A.A(t.b0),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$DC=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=B.e.cd("portal@healio.tech".toLowerCase())
-f=b==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+f=b==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
-d=A.ad(["url","https://gras-savoye.dev.healio.tech","db",b,"login",g,"password",f,"model","res.users","method","get_profile","args",A.a([A.ad(["adherent_id",a],e,t.S)],t.xN)],e,t.K)
+d=A.ad(["url","https://wecoverbo.healio.tech","db",b,"login",g,"password",f,"model","res.users","method","get_profile","args",A.a([A.ad(["adherent_id",a],e,t.S)],t.xN)],e,t.K)
 p=4
 g=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113425,9 +113426,9 @@ abx(a,b){var s=0,r=A.A(t.CT),q,p=2,o,n,m,l,k,j,i,h,g,f,e,d,c
 var $async$vf=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=B.e.cd("portal@healio.tech".toLowerCase())
-f=b==="Wecover"?"8a9TiRnSh/5NN]^#2n9[":"n/T9N9N[RS8hin5a]^2#"
+f=b==="BNA"?"%ZmYcp^No~1`!7H01T":"n/T9N9N[RS8hin5a]^2#"
 e=t.N
-d=A.ad(["url","https://gras-savoye.dev.healio.tech","db",b,"login",g,"password",f,"model","res.users","method","get_family_members","args",A.a([A.ad(["adherent_id",a],e,t.S)],t.xN)],e,t.K)
+d=A.ad(["url","https://wecoverbo.healio.tech","db",b,"login",g,"password",f,"model","res.users","method","get_family_members","args",A.a([A.ad(["adherent_id",a],e,t.S)],t.xN)],e,t.K)
 p=4
 g=A.ad(["Content-Type","application/json"],e,e)
 s=7
@@ -113500,7 +113501,7 @@ acM(a,b,c,d){var s=0,r=A.A(t.S),q,p=2,o,n=this,m,l,k,j,i,h,g,f,e
 var $async$E_=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:h=A.cR("https://portail.healio.tech/api/proxy",0,null)
 g=t.N
-f=A.ad(["url","https://gras-savoye.dev.healio.tech","db",c,"login",B.e.cd("portal@healio.tech".toLowerCase()),"password",d,"model","res.users","method","reset_password_flutter","args",A.a([A.ad(["accept","application/json","login",a,"new_password",n.a6p(b),"db_name",c],g,g)],t.m0)],g,t.K)
+f=A.ad(["url","https://wecoverbo.healio.tech","db",c,"login",B.e.cd("portal@healio.tech".toLowerCase()),"password",d,"model","res.users","method","reset_password_flutter","args",A.a([A.ad(["accept","application/json","login",a,"new_password",n.a6p(b),"db_name",c],g,g)],t.m0)],g,t.K)
 p=4
 g=A.ad(["Content-Type","application/json"],g,g)
 s=7
@@ -113956,7 +113957,7 @@ if(!r.r){s=r.e
 if(s.gT().q8()){s.gT().cZ(0)
 s=r.d
 s===$&&A.b()
-r.uw(s,"Wecover")}}},
+r.uw(s,"BNA")}}},
 $S:0}
 A.aWO.prototype={
 $0(){this.a.r=!0},
@@ -114072,8 +114073,8 @@ l=null
 j=n.ax
 j===$&&A.b()
 if(j==="Gras-savoye"){m="Gras-savoye"
-l="n/T9N9N[RS8hin5a]^2#"}else{m="Wecover"
-l="8a9TiRnSh/5NN]^#2n9["}j=n.d
+l="n/T9N9N[RS8hin5a]^2#"}else{m="BNA"
+l="%ZmYcp^No~1`!7H01T"}j=n.d
 j===$&&A.b()
 s=6
 return A.v(j.E_(n.e.a.a,n.r.a.a,m,l),$async$qd)
@@ -114271,15 +114272,14 @@ case 9:n.tc(m)
 n.ny(c)
 s=8
 break
-case 10:A.aD("auth tried: "+n.as)
-k=n.as
+case 10:k=n.as
 s=k===0?14:16
 break
 case 14:n.as=k+1
 n.oY(a,b,"Gras-savoye")
 s=15
 break
-case 16:A.aD("else response 0")
+case 16:n.as=0
 k=n.c
 k.toString
 s=17
@@ -114399,7 +114399,7 @@ s=q.w
 s===$&&A.b()
 r=q.x
 r===$&&A.b()
-q.oY(s,r,"Wecover")}}},
+q.oY(s,r,"BNA")}}},
 $S:0}
 A.b1r.prototype={
 $0(){return A.bxq($.c5(),"/forgot_password",t.z)},
@@ -117044,7 +117044,7 @@ k=d.x.w
 k.toString
 k=A.aw(A.a([l,B.bB,A.al(k,c,c,c,c,c,c,c,s.ge8(),c,c,c)],n),B.i,B.n,B.h)
 l=d.x.Q
-if(l==="")l=new A.ar(c,c,c,c)
+if(l==="false")l=new A.ar(c,c,c,c)
 else{g=A.d5(B.WW,b.c,c,c)
 l.toString
 l=A.aw(A.a([g,B.bB,A.al("+216 "+l,c,c,c,c,c,c,c,s.ge8(),c,c,c)],n),B.i,B.n,B.h)}g=d.x.as
