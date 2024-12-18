@@ -113360,7 +113360,6 @@ var $async$Ec=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:g=A.cY($.h7.ca(),0,null)
 f=t.N
 e=A.ac(["url",n.iK(c),"db",c,"login",n.iG(c),"password",n.j5(c),"model","res.users","method","get_user_account","args",A.a([A.ac(["accept","application/json","db_name",c,"login",B.e.da(a.toLowerCase()),"password",n.a6o(B.e.da(b))],f,f)],t.m0)],f,t.K)
-A.aD("config request : "+A.j(e))
 p=4
 f=A.ac(["Content-Type","application/json"],f,f)
 s=7
