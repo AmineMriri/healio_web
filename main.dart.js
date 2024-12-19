@@ -113250,6 +113250,7 @@ var $async$Ec=A.w(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:g=A.cX($.h6.cd(),0,null)
 f=t.N
 e=A.ac(["url",n.iK(c),"db",c,"login",n.iG(c),"password",n.j5(c),"model","res.users","method","get_user_account","args",A.a([A.ac(["accept","application/json","db_name",c,"login",B.e.da(a.toLowerCase()),"password",n.a6o(B.e.da(b))],f,f)],t.m0)],f,t.K)
+A.aD("config request : "+A.j(e))
 p=4
 f=A.ac(["Content-Type","application/json"],f,f)
 s=7
@@ -116603,9 +116604,7 @@ s.Q=!1
 s.mr(0)},
 $S:0}
 A.aVc.prototype={
-$1(a){var s=a.b
-A.aD(" specialy :"+s)
-return s},
+$1(a){return a.b},
 $S:102}
 A.aVh.prototype={
 $0(){var s,r=this.a,q=r.ay
