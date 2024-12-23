@@ -17,6 +17,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "824836c6a922f8aa80ab5ce62ad9046d
 "assets/assets/images/no_netwrok.png": "56a062f06b56672c6018d53090495898",
 "assets/assets/images/under_construction.png": "62571bdc1b369d4d701e5ea1670850d7",
 "assets/assets/images/wecover.png": "bbd4a2c4016136e8b0f269b128a28900",
+"assets/assets/images/wecover_cropped.png": "5ba89a5dcdbe3ce5a7460b3ff567e8e7",
 "assets/assets/svg/attachment.svg": "79a53dce57282c64c941a8f143d50177",
 "assets/assets/svg/calendar-svg.svg": "48dce09bebf6ef3983b2975d01e3252f",
 "assets/assets/svg/doctor-svg.svg": "7df1363445dad08ddce5659c56f91ad3",
@@ -47,9 +48,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "824836c6a922f8aa80ab5ce62ad9046d
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "b2913757b75ae71885914095dcc5498a",
-"/": "b2913757b75ae71885914095dcc5498a",
-"main.dart.js": "697c1fbd15c7f150f1f428e633fff459",
+"index.html": "49a383cfeec38ca46267daf4d2eb5853",
+"/": "49a383cfeec38ca46267daf4d2eb5853",
+"main.dart.js": "7e93ed5f9244ee5a170719cc8c1fe5a6",
 "manifest.json": "0ba7805f4b71d70173a1c87fd7ac0de1",
 "version.json": "349458cd45e2279f02cf49ea2dee6c25"};
 // The application shell files that are downloaded before a service worker can
